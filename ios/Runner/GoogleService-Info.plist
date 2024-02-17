@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>495101546871-pp4ss92m938pqblriat2jmbisqrmslsl.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.495101546871-pp4ss92m938pqblriat2jmbisqrmslsl</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>495101546871-2s3qpf761autgdfl54f23ale2srbdba1.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDcMpK6DvG4ixYvDl30jhCSsxU0LhuL2B8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>495101546871</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Fahrschulhero</string>
+	<key>PROJECT_ID</key>
+	<string>fahrschulhero</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fahrschulhero.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:495101546871:ios:4b98f65d027629514bd172</string>
+</dict>
+</plist>
