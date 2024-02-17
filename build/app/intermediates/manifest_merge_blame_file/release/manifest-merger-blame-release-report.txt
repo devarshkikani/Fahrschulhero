@@ -1,0 +1,1000 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.Fahrschulhero"
+4    android:versionCode="42"
+5    android:versionName="1.0.6" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:2:5-79
+11-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:2:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:3:5-81
+12-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:3:22-78
+13    <uses-permission android:name="android.permission.READ_CONTACTS" />
+13-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:4:5-71
+13-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:4:22-69
+14    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+14-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:5:5-72
+14-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:5:22-70
+15    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+15-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:6:5-70
+15-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:6:22-68
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:7:5-65
+16-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:7:22-62
+17    <uses-permission android:name="android.vending.BILLING" />
+17-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:8:5-62
+17-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:8:22-60
+18    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+18-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:9:5-78
+18-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:9:22-76
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-67
+19-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:7:22-64
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:8:5-68
+20-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:8:22-65
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+21-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-76
+22    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+22-->[:flutter_local_notifications] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-81
+22-->[:flutter_local_notifications] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:7:22-78
+23    <uses-permission android:name="android.permission.VIBRATE" />
+23-->[:flutter_local_notifications] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:8:5-66
+23-->[:flutter_local_notifications] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:8:22-63
+24    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+24-->[:flutter_local_notifications] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+24-->[:flutter_local_notifications] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+25    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+25-->[:flutter_local_notifications] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-79
+25-->[:flutter_local_notifications] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-76
+26
+27    <queries>
+27-->[:contacts_service] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-22:15
+28        <intent>
+28-->[:contacts_service] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:18
+29            <action android:name="android.accounts.AccountAuthenticator" />
+29-->[:contacts_service] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-76
+29-->[:contacts_service] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-73
+30        </intent>
+31        <!-- Allows the app to load an icon corresponding to the custom MIME type. -->
+32        <intent>
+32-->[:contacts_service] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-21:18
+33            <action android:name="android.intent.action.VIEW" />
+33-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:36:17-69
+33-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:36:25-66
+34
+35            <data
+35-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:39:17-75
+36                android:host="com.android.contacts"
+37                android:mimeType="vnd.android.cursor.item/*"
+38                android:scheme="content" />
+38-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:39:23-72
+39        </intent>
+40        <intent>
+40-->[com.android.billingclient:billing:6.0.1] /Users/dreamworld/.gradle/caches/transforms-3/1145e356a1d7a1771021fc7e45dad353/transformed/jetified-billing-6.0.1/AndroidManifest.xml:13:9-15:18
+41            <action android:name="com.android.vending.billing.InAppBillingService.BIND" />
+41-->[com.android.billingclient:billing:6.0.1] /Users/dreamworld/.gradle/caches/transforms-3/1145e356a1d7a1771021fc7e45dad353/transformed/jetified-billing-6.0.1/AndroidManifest.xml:14:13-91
+41-->[com.android.billingclient:billing:6.0.1] /Users/dreamworld/.gradle/caches/transforms-3/1145e356a1d7a1771021fc7e45dad353/transformed/jetified-billing-6.0.1/AndroidManifest.xml:14:21-88
+42        </intent> <!-- For browser content -->
+43        <intent>
+43-->[com.google.android.gms:play-services-ads-lite:20.5.0] /Users/dreamworld/.gradle/caches/transforms-3/6cc9934bd2f9ae0361a862b5b567f44d/transformed/jetified-play-services-ads-lite-20.5.0/AndroidManifest.xml:31:9-37:18
+44            <action android:name="android.intent.action.VIEW" />
+44-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:36:17-69
+44-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:36:25-66
+45
+46            <category android:name="android.intent.category.BROWSABLE" />
+46-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:38:17-78
+46-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:38:27-75
+47
+48            <data android:scheme="https" />
+48-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:39:17-75
+48-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:39:23-72
+49        </intent> <!-- End of browser content -->
+50        <!-- For CustomTabsService -->
+51        <intent>
+51-->[com.google.android.gms:play-services-ads-lite:20.5.0] /Users/dreamworld/.gradle/caches/transforms-3/6cc9934bd2f9ae0361a862b5b567f44d/transformed/jetified-play-services-ads-lite-20.5.0/AndroidManifest.xml:40:9-42:18
+52            <action android:name="android.support.customtabs.action.CustomTabsService" />
+52-->[com.google.android.gms:play-services-ads-lite:20.5.0] /Users/dreamworld/.gradle/caches/transforms-3/6cc9934bd2f9ae0361a862b5b567f44d/transformed/jetified-play-services-ads-lite-20.5.0/AndroidManifest.xml:41:13-90
+52-->[com.google.android.gms:play-services-ads-lite:20.5.0] /Users/dreamworld/.gradle/caches/transforms-3/6cc9934bd2f9ae0361a862b5b567f44d/transformed/jetified-play-services-ads-lite-20.5.0/AndroidManifest.xml:41:21-87
+53        </intent>
+54    </queries>
+55
+56    <uses-permission android:name="com.android.vending.BILLING" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+56-->[com.android.billingclient:billing:6.0.1] /Users/dreamworld/.gradle/caches/transforms-3/1145e356a1d7a1771021fc7e45dad353/transformed/jetified-billing-6.0.1/AndroidManifest.xml:10:5-67
+56-->[com.android.billingclient:billing:6.0.1] /Users/dreamworld/.gradle/caches/transforms-3/1145e356a1d7a1771021fc7e45dad353/transformed/jetified-billing-6.0.1/AndroidManifest.xml:10:22-64
+57    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+57-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dreamworld/.gradle/caches/transforms-3/55f9238a24da9bdf6789af5c6dc9aa6b/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:5-82
+57-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dreamworld/.gradle/caches/transforms-3/55f9238a24da9bdf6789af5c6dc9aa6b/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:22-79
+58    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+58-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/dreamworld/.gradle/caches/transforms-3/79bc35ba27c6697c439cdf043051e718/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:26:5-110
+58-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/dreamworld/.gradle/caches/transforms-3/79bc35ba27c6697c439cdf043051e718/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:26:22-107
+59
+60    <uses-feature
+60-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dreamworld/.gradle/caches/transforms-3/4c6d5e25d67431c451d1e946df5c5a14/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+61        android:glEsVersion="0x00020000"
+61-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dreamworld/.gradle/caches/transforms-3/4c6d5e25d67431c451d1e946df5c5a14/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+62        android:required="true" />
+62-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dreamworld/.gradle/caches/transforms-3/4c6d5e25d67431c451d1e946df5c5a14/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+63
+64    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+64-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:5-77
+64-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:22-74
+65
+66    <application
+66-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:10:5-45:19
+67        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+67-->[androidx.core:core:1.6.0] /Users/dreamworld/.gradle/caches/transforms-3/3f8fb4da84fe36fdbb1fe84f28c48dd0/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+68        android:icon="@mipmap/ic_launcher"
+68-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:10:48-82
+69        android:label="Fahrschulhero"
+69-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:10:18-47
+70        android:supportsRtl="true" >
+70-->[com.facebook.android:facebook-login:12.2.0] /Users/dreamworld/.gradle/caches/transforms-3/9788a061ab8dd1a3a2947c6bdead9f59/transformed/jetified-facebook-login-12.2.0/AndroidManifest.xml:28:18-44
+71        <meta-data
+71-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:11:9-133
+72            android:name="com.google.android.gms.ads.APPLICATION_ID"
+72-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:11:20-76
+73            android:value="ca-app-pub-4716968301608553~2359509140" />
+73-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:11:77-131
+74        <meta-data
+74-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:13:9-123
+75            android:name="com.google.android.geo.API_KEY"
+75-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:13:20-65
+76            android:value="AIzaSyDZZeGlIGUIPs4o8ahJE_yq6pJv3GhbKQ8" />
+76-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:13:66-121
+77
+78        <activity
+78-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:14:9-162
+79            android:name="com.yalantis.ucrop.UCropActivity"
+79-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:14:19-66
+80            android:screenOrientation="portrait"
+80-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:14:67-103
+81            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+81-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:14:104-160
+82        <activity
+82-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:15:9-31:20
+83            android:name="com.example.drive.MainActivity"
+83-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:15:19-47
+84            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+84-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:15:138-288
+85            android:exported="true"
+85-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:15:48-71
+86            android:hardwareAccelerated="true"
+86-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:15:289-323
+87            android:launchMode="singleTop"
+87-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:15:72-102
+88            android:theme="@style/LaunchTheme"
+88-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:15:103-137
+89            android:windowSoftInputMode="adjustResize" >
+89-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:15:324-366
+90
+91            <!--
+92                 Specifies an Android theme to apply to this Activity as soon as
+93                 the Android process has started. This theme is visible to the user
+94                 while the Flutter UI initializes. After that, this theme continues
+95                 to determine the Window background behind the Flutter UI.
+96            -->
+97            <meta-data
+97-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:20:13-120
+98                android:name="io.flutter.embedding.android.NormalTheme"
+98-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:20:24-79
+99                android:resource="@style/NormalTheme" />
+99-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:20:80-117
+100            <!--
+101                 Displays an Android View that continues showing the launch screen
+102                 Drawable until Flutter paints its first frame, then this splash
+103                 screen fades out. A splash screen is useful to avoid any visual
+104                 gap between the end of Android's launch screen and the painting of
+105                 Flutter's first frame.
+106            -->
+107            <meta-data
+107-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:26:13-138
+108                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+108-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:26:24-88
+109                android:resource="@drawable/launch_background" />
+109-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:26:89-135
+110
+111            <intent-filter>
+111-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:27:13-30:29
+112                <action android:name="android.intent.action.MAIN" />
+112-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:28:17-68
+112-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:28:25-66
+113
+114                <category android:name="android.intent.category.LAUNCHER" />
+114-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:29:17-76
+114-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:29:27-74
+115            </intent-filter>
+116        </activity>
+117
+118        <meta-data
+118-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:32:9-107
+119            android:name="com.facebook.sdk.ApplicationId"
+119-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:32:20-65
+120            android:value="@string/facebook_app_id" />
+120-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:32:66-105
+121
+122        <activity
+122-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:33:9-183
+123            android:name="com.facebook.FacebookActivity"
+123-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:33:19-63
+124            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+124-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:33:64-147
+125            android:label="@string/app_name"
+125-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:33:148-180
+126            android:theme="@style/com_facebook_activity_theme" />
+126-->[com.facebook.android:facebook-common:12.2.0] /Users/dreamworld/.gradle/caches/transforms-3/4c70491bdbb80fc8709b2423bcdbcaa8/transformed/jetified-facebook-common-12.2.0/AndroidManifest.xml:33:13-63
+127        <activity
+127-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:34:9-41:20
+128            android:name="com.facebook.CustomTabActivity"
+128-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:34:19-64
+129            android:exported="true" >
+129-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:34:65-88
+130            <intent-filter>
+130-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:35:13-40:29
+131                <action android:name="android.intent.action.VIEW" />
+131-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:36:17-69
+131-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:36:25-66
+132
+133                <category android:name="android.intent.category.DEFAULT" />
+133-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:37:17-76
+133-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:37:27-73
+134                <category android:name="android.intent.category.BROWSABLE" />
+134-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:38:17-78
+134-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:38:27-75
+135
+136                <data android:scheme="@string/fb_login_protocol_scheme" />
+136-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:39:17-75
+136-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:39:23-72
+137            </intent-filter>
+138            <intent-filter>
+138-->[com.facebook.android:facebook-common:12.2.0] /Users/dreamworld/.gradle/caches/transforms-3/4c70491bdbb80fc8709b2423bcdbcaa8/transformed/jetified-facebook-common-12.2.0/AndroidManifest.xml:39:13-48:29
+139                <action android:name="android.intent.action.VIEW" />
+139-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:36:17-69
+139-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:36:25-66
+140
+141                <category android:name="android.intent.category.DEFAULT" />
+141-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:37:17-76
+141-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:37:27-73
+142                <category android:name="android.intent.category.BROWSABLE" />
+142-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:38:17-78
+142-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:38:27-75
+143
+144                <data
+144-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:39:17-75
+145                    android:host="cct.com.Fahrschulhero"
+146                    android:scheme="fbconnect" />
+146-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:39:23-72
+147            </intent-filter>
+148        </activity>
+149        <!--
+150             Don't delete the meta-data below.
+151             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+152        -->
+153        <meta-data
+153-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:44:9-72
+154            android:name="flutterEmbedding"
+154-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:44:20-51
+155            android:value="2" />
+155-->/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/android/app/src/main/AndroidManifest.xml:44:52-69
+156
+157        <service
+157-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-15:72
+158            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+158-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-107
+159            android:exported="false"
+159-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-37
+160            android:permission="android.permission.BIND_JOB_SERVICE" />
+160-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-69
+161        <service
+161-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-22:19
+162            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+162-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-97
+163            android:exported="false" >
+163-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+164            <intent-filter>
+164-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-21:29
+165                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+165-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:17-78
+165-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:25-75
+166            </intent-filter>
+167        </service>
+168
+169        <receiver
+169-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:9-31:20
+170            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+170-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-98
+171            android:exported="true"
+171-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-36
+172            android:permission="com.google.android.c2dm.permission.SEND" >
+172-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-73
+173            <intent-filter>
+173-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-30:29
+174                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+174-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-81
+174-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:25-78
+175            </intent-filter>
+176        </receiver>
+177
+178        <service
+178-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:9-37:19
+179            android:name="com.google.firebase.components.ComponentDiscoveryService"
+179-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:18-89
+180            android:directBootAware="true"
+180-->[com.google.firebase:firebase-common:20.0.0] /Users/dreamworld/.gradle/caches/transforms-3/bd5efdbf7de6587772d60ed24c49819a/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+181            android:exported="false" >
+181-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dreamworld/.gradle/caches/transforms-3/55f9238a24da9bdf6789af5c6dc9aa6b/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:51:13-37
+182            <meta-data
+182-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:34:13-36:85
+183                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+183-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:35:17-128
+184                android:value="com.google.firebase.components.ComponentRegistrar" />
+184-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:36:17-82
+185            <meta-data
+185-->[:firebase_dynamic_links] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_dynamic_links/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+186                android:name="com.google.firebase.components:io.flutter.plugins.firebasedynamiclinks.FlutterFirebaseAppRegistrar"
+186-->[:firebase_dynamic_links] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_dynamic_links/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-130
+187                android:value="com.google.firebase.components.ComponentRegistrar" />
+187-->[:firebase_dynamic_links] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_dynamic_links/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+188            <meta-data
+188-->[:firebase_core] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-11:85
+189                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+189-->[:firebase_core] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:17-124
+190                android:value="com.google.firebase.components.ComponentRegistrar" />
+190-->[:firebase_core] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:17-82
+191            <meta-data
+191-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dreamworld/.gradle/caches/transforms-3/55f9238a24da9bdf6789af5c6dc9aa6b/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:52:13-54:85
+192                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+192-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dreamworld/.gradle/caches/transforms-3/55f9238a24da9bdf6789af5c6dc9aa6b/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:53:17-119
+193                android:value="com.google.firebase.components.ComponentRegistrar" />
+193-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dreamworld/.gradle/caches/transforms-3/55f9238a24da9bdf6789af5c6dc9aa6b/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:54:17-82
+194            <meta-data
+194-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/dreamworld/.gradle/caches/transforms-3/050a8bae5f113bb6835e8d8fde9839c5/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+195                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+195-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/dreamworld/.gradle/caches/transforms-3/050a8bae5f113bb6835e8d8fde9839c5/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+196                android:value="com.google.firebase.components.ComponentRegistrar" />
+196-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/dreamworld/.gradle/caches/transforms-3/050a8bae5f113bb6835e8d8fde9839c5/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+197            <meta-data
+197-->[com.google.firebase:firebase-dynamic-links:21.0.0] /Users/dreamworld/.gradle/caches/transforms-3/685a2c8e7f6b14e400671360910d445b/transformed/jetified-firebase-dynamic-links-21.0.0/AndroidManifest.xml:27:13-29:85
+198                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+198-->[com.google.firebase:firebase-dynamic-links:21.0.0] /Users/dreamworld/.gradle/caches/transforms-3/685a2c8e7f6b14e400671360910d445b/transformed/jetified-firebase-dynamic-links-21.0.0/AndroidManifest.xml:28:17-133
+199                android:value="com.google.firebase.components.ComponentRegistrar" />
+199-->[com.google.firebase:firebase-dynamic-links:21.0.0] /Users/dreamworld/.gradle/caches/transforms-3/685a2c8e7f6b14e400671360910d445b/transformed/jetified-firebase-dynamic-links-21.0.0/AndroidManifest.xml:29:17-82
+200            <meta-data
+200-->[com.google.android.gms:play-services-measurement-api:20.0.0] /Users/dreamworld/.gradle/caches/transforms-3/1e754b656d330c7b1843d2387e4fdad0/transformed/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:30:13-32:85
+201                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+201-->[com.google.android.gms:play-services-measurement-api:20.0.0] /Users/dreamworld/.gradle/caches/transforms-3/1e754b656d330c7b1843d2387e4fdad0/transformed/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:31:17-139
+202                android:value="com.google.firebase.components.ComponentRegistrar" />
+202-->[com.google.android.gms:play-services-measurement-api:20.0.0] /Users/dreamworld/.gradle/caches/transforms-3/1e754b656d330c7b1843d2387e4fdad0/transformed/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:32:17-82
+203            <meta-data
+203-->[com.google.firebase:firebase-installations:17.0.0] /Users/dreamworld/.gradle/caches/transforms-3/d8102835b48eac15550f7ae82cbeea8d/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+204                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+204-->[com.google.firebase:firebase-installations:17.0.0] /Users/dreamworld/.gradle/caches/transforms-3/d8102835b48eac15550f7ae82cbeea8d/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+205                android:value="com.google.firebase.components.ComponentRegistrar" />
+205-->[com.google.firebase:firebase-installations:17.0.0] /Users/dreamworld/.gradle/caches/transforms-3/d8102835b48eac15550f7ae82cbeea8d/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+206        </service>
+207
+208        <provider
+208-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:39:9-43:38
+209            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+209-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:40:13-102
+210            android:authorities="com.Fahrschulhero.flutterfirebasemessaginginitprovider"
+210-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-88
+211            android:exported="false"
+211-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-37
+212            android:initOrder="99" />
+212-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-35
+213        <provider
+213-->[:image_picker] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/image_picker/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-16:20
+214            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+214-->[:image_picker] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/image_picker/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-82
+215            android:authorities="com.Fahrschulhero.flutter.image_provider"
+215-->[:image_picker] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/image_picker/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-74
+216            android:exported="false"
+216-->[:image_picker] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/image_picker/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-37
+217            android:grantUriPermissions="true" >
+217-->[:image_picker] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/image_picker/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-47
+218            <meta-data
+218-->[:image_picker] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/image_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-15:75
+219                android:name="android.support.FILE_PROVIDER_PATHS"
+219-->[:image_picker] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/image_picker/intermediates/merged_manifest/release/AndroidManifest.xml:14:17-67
+220                android:resource="@xml/flutter_image_picker_file_paths" />
+220-->[:image_picker] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/image_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:17-72
+221        </provider>
+222
+223        <receiver
+223-->[:flutter_local_notifications] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:13:9-15:40
+224            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+224-->[:flutter_local_notifications] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-97
+225            android:exported="false" />
+225-->[:flutter_local_notifications] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-37
+226        <receiver
+226-->[:flutter_local_notifications] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-25:20
+227            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+227-->[:flutter_local_notifications] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-101
+228            android:exported="false" >
+228-->[:flutter_local_notifications] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+229            <intent-filter>
+229-->[:flutter_local_notifications] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-24:29
+230                <action android:name="android.intent.action.BOOT_COMPLETED" />
+230-->[:flutter_local_notifications] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:17-79
+230-->[:flutter_local_notifications] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:25-76
+231                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+231-->[:flutter_local_notifications] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-84
+231-->[:flutter_local_notifications] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:25-81
+232                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+232-->[:flutter_local_notifications] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-82
+232-->[:flutter_local_notifications] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:25-79
+233                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+233-->[:flutter_local_notifications] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:17-82
+233-->[:flutter_local_notifications] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:25-79
+234            </intent-filter>
+235        </receiver>
+236
+237        <meta-data
+237-->[:google_mobile_ads] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/google_mobile_ads/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:36
+238            android:name="io.flutter.embedded_views_preview"
+238-->[:google_mobile_ads] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/google_mobile_ads/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-61
+239            android:value="true" />
+239-->[:google_mobile_ads] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/google_mobile_ads/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-33
+240
+241        <provider
+241-->[:share] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-16:20
+242            android:name="io.flutter.plugins.share.ShareFileProvider"
+242-->[:share] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-70
+243            android:authorities="com.Fahrschulhero.flutter.share_provider"
+243-->[:share] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-74
+244            android:exported="false"
+244-->[:share] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-37
+245            android:grantUriPermissions="true" >
+245-->[:share] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-47
+246            <meta-data
+246-->[:image_picker] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/image_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-15:75
+247                android:name="android.support.FILE_PROVIDER_PATHS"
+247-->[:image_picker] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/image_picker/intermediates/merged_manifest/release/AndroidManifest.xml:14:17-67
+248                android:resource="@xml/flutter_share_file_paths" />
+248-->[:image_picker] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/image_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:17-72
+249        </provider>
+250
+251        <activity
+251-->[:url_launcher_android] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-11:74
+252            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+252-->[:url_launcher_android] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-74
+253            android:exported="false"
+253-->[:url_launcher_android] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-37
+254            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+254-->[:url_launcher_android] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-71
+255        <activity android:name="com.facebook.CustomTabMainActivity" />
+255-->[com.facebook.android:facebook-common:12.2.0] /Users/dreamworld/.gradle/caches/transforms-3/4c70491bdbb80fc8709b2423bcdbcaa8/transformed/jetified-facebook-common-12.2.0/AndroidManifest.xml:34:9-71
+255-->[com.facebook.android:facebook-common:12.2.0] /Users/dreamworld/.gradle/caches/transforms-3/4c70491bdbb80fc8709b2423bcdbcaa8/transformed/jetified-facebook-common-12.2.0/AndroidManifest.xml:34:19-68
+256        <!--
+257         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+258         with the application context. This config is merged in with the host app's manifest,
+259         but there can only be one provider with the same authority activated at any given
+260         point; so if the end user has two or more different apps that use Facebook SDK, only the
+261         first one will be able to use the provider. To work around this problem, we use the
+262         following placeholder in the authority to identify each host application as if it was
+263         a completely different provider.
+264        -->
+265        <provider
+265-->[com.facebook.android:facebook-core:12.2.0] /Users/dreamworld/.gradle/caches/transforms-3/dc7790bb9a389648e281222d6f6d8938/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:39:9-42:40
+266            android:name="com.facebook.internal.FacebookInitProvider"
+266-->[com.facebook.android:facebook-core:12.2.0] /Users/dreamworld/.gradle/caches/transforms-3/dc7790bb9a389648e281222d6f6d8938/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:40:13-70
+267            android:authorities="com.Fahrschulhero.FacebookInitProvider"
+267-->[com.facebook.android:facebook-core:12.2.0] /Users/dreamworld/.gradle/caches/transforms-3/dc7790bb9a389648e281222d6f6d8938/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:41:13-72
+268            android:exported="false" />
+268-->[com.facebook.android:facebook-core:12.2.0] /Users/dreamworld/.gradle/caches/transforms-3/dc7790bb9a389648e281222d6f6d8938/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:42:13-37
+269
+270        <receiver
+270-->[com.facebook.android:facebook-core:12.2.0] /Users/dreamworld/.gradle/caches/transforms-3/dc7790bb9a389648e281222d6f6d8938/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:44:9-50:20
+271            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+271-->[com.facebook.android:facebook-core:12.2.0] /Users/dreamworld/.gradle/caches/transforms-3/dc7790bb9a389648e281222d6f6d8938/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:45:13-86
+272            android:exported="false" >
+272-->[com.facebook.android:facebook-core:12.2.0] /Users/dreamworld/.gradle/caches/transforms-3/dc7790bb9a389648e281222d6f6d8938/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:46:13-37
+273            <intent-filter>
+273-->[com.facebook.android:facebook-core:12.2.0] /Users/dreamworld/.gradle/caches/transforms-3/dc7790bb9a389648e281222d6f6d8938/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:47:13-49:29
+274                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+274-->[com.facebook.android:facebook-core:12.2.0] /Users/dreamworld/.gradle/caches/transforms-3/dc7790bb9a389648e281222d6f6d8938/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:48:17-95
+274-->[com.facebook.android:facebook-core:12.2.0] /Users/dreamworld/.gradle/caches/transforms-3/dc7790bb9a389648e281222d6f6d8938/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:48:25-92
+275            </intent-filter>
+276        </receiver>
+277        <receiver
+277-->[com.facebook.android:facebook-core:12.2.0] /Users/dreamworld/.gradle/caches/transforms-3/dc7790bb9a389648e281222d6f6d8938/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:51:9-57:20
+278            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+278-->[com.facebook.android:facebook-core:12.2.0] /Users/dreamworld/.gradle/caches/transforms-3/dc7790bb9a389648e281222d6f6d8938/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:52:13-118
+279            android:exported="false" >
+279-->[com.facebook.android:facebook-core:12.2.0] /Users/dreamworld/.gradle/caches/transforms-3/dc7790bb9a389648e281222d6f6d8938/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:53:13-37
+280            <intent-filter>
+280-->[com.facebook.android:facebook-core:12.2.0] /Users/dreamworld/.gradle/caches/transforms-3/dc7790bb9a389648e281222d6f6d8938/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:54:13-56:29
+281                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+281-->[com.facebook.android:facebook-core:12.2.0] /Users/dreamworld/.gradle/caches/transforms-3/dc7790bb9a389648e281222d6f6d8938/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:55:17-103
+281-->[com.facebook.android:facebook-core:12.2.0] /Users/dreamworld/.gradle/caches/transforms-3/dc7790bb9a389648e281222d6f6d8938/transformed/jetified-facebook-core-12.2.0/AndroidManifest.xml:55:25-100
+282            </intent-filter>
+283        </receiver>
+284
+285        <uses-library
+285-->[androidx.window:window:1.0.0-beta04] /Users/dreamworld/.gradle/caches/transforms-3/bc19463868d18c795ccf204076c3fa6a/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+286            android:name="androidx.window.extensions"
+286-->[androidx.window:window:1.0.0-beta04] /Users/dreamworld/.gradle/caches/transforms-3/bc19463868d18c795ccf204076c3fa6a/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+287            android:required="false" />
+287-->[androidx.window:window:1.0.0-beta04] /Users/dreamworld/.gradle/caches/transforms-3/bc19463868d18c795ccf204076c3fa6a/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+288        <uses-library
+288-->[androidx.window:window:1.0.0-beta04] /Users/dreamworld/.gradle/caches/transforms-3/bc19463868d18c795ccf204076c3fa6a/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+289            android:name="androidx.window.sidecar"
+289-->[androidx.window:window:1.0.0-beta04] /Users/dreamworld/.gradle/caches/transforms-3/bc19463868d18c795ccf204076c3fa6a/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+290            android:required="false" />
+290-->[androidx.window:window:1.0.0-beta04] /Users/dreamworld/.gradle/caches/transforms-3/bc19463868d18c795ccf204076c3fa6a/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+291
+292        <meta-data
+292-->[com.android.billingclient:billing:6.0.1] /Users/dreamworld/.gradle/caches/transforms-3/1145e356a1d7a1771021fc7e45dad353/transformed/jetified-billing-6.0.1/AndroidManifest.xml:19:9-21:37
+293            android:name="com.google.android.play.billingclient.version"
+293-->[com.android.billingclient:billing:6.0.1] /Users/dreamworld/.gradle/caches/transforms-3/1145e356a1d7a1771021fc7e45dad353/transformed/jetified-billing-6.0.1/AndroidManifest.xml:20:13-73
+294            android:value="6.0.1" />
+294-->[com.android.billingclient:billing:6.0.1] /Users/dreamworld/.gradle/caches/transforms-3/1145e356a1d7a1771021fc7e45dad353/transformed/jetified-billing-6.0.1/AndroidManifest.xml:21:13-34
+295
+296        <activity
+296-->[com.android.billingclient:billing:6.0.1] /Users/dreamworld/.gradle/caches/transforms-3/1145e356a1d7a1771021fc7e45dad353/transformed/jetified-billing-6.0.1/AndroidManifest.xml:23:9-27:75
+297            android:name="com.android.billingclient.api.ProxyBillingActivity"
+297-->[com.android.billingclient:billing:6.0.1] /Users/dreamworld/.gradle/caches/transforms-3/1145e356a1d7a1771021fc7e45dad353/transformed/jetified-billing-6.0.1/AndroidManifest.xml:24:13-78
+298            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+298-->[com.android.billingclient:billing:6.0.1] /Users/dreamworld/.gradle/caches/transforms-3/1145e356a1d7a1771021fc7e45dad353/transformed/jetified-billing-6.0.1/AndroidManifest.xml:25:13-96
+299            android:exported="false"
+299-->[com.android.billingclient:billing:6.0.1] /Users/dreamworld/.gradle/caches/transforms-3/1145e356a1d7a1771021fc7e45dad353/transformed/jetified-billing-6.0.1/AndroidManifest.xml:26:13-37
+300            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+300-->[com.android.billingclient:billing:6.0.1] /Users/dreamworld/.gradle/caches/transforms-3/1145e356a1d7a1771021fc7e45dad353/transformed/jetified-billing-6.0.1/AndroidManifest.xml:27:13-72
+301
+302        <receiver
+302-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dreamworld/.gradle/caches/transforms-3/55f9238a24da9bdf6789af5c6dc9aa6b/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:28:9-35:20
+303            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+303-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dreamworld/.gradle/caches/transforms-3/55f9238a24da9bdf6789af5c6dc9aa6b/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:29:13-78
+304            android:exported="true"
+304-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dreamworld/.gradle/caches/transforms-3/55f9238a24da9bdf6789af5c6dc9aa6b/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:30:13-36
+305            android:permission="com.google.android.c2dm.permission.SEND" >
+305-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dreamworld/.gradle/caches/transforms-3/55f9238a24da9bdf6789af5c6dc9aa6b/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:31:13-73
+306            <intent-filter>
+306-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-30:29
+307                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+307-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-81
+307-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:25-78
+308            </intent-filter>
+309        </receiver>
+310        <!--
+311             FirebaseMessagingService performs security checks at runtime,
+312             but set to not exported to explicitly avoid allowing another app to call it.
+313        -->
+314        <service
+314-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dreamworld/.gradle/caches/transforms-3/55f9238a24da9bdf6789af5c6dc9aa6b/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:41:9-48:19
+315            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+315-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dreamworld/.gradle/caches/transforms-3/55f9238a24da9bdf6789af5c6dc9aa6b/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:42:13-82
+316            android:directBootAware="true"
+316-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dreamworld/.gradle/caches/transforms-3/55f9238a24da9bdf6789af5c6dc9aa6b/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:43:13-43
+317            android:exported="false" >
+317-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dreamworld/.gradle/caches/transforms-3/55f9238a24da9bdf6789af5c6dc9aa6b/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:44:13-37
+318            <intent-filter android:priority="-500" >
+318-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-21:29
+319                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+319-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:17-78
+319-->[:firebase_messaging] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:25-75
+320            </intent-filter>
+321        </service>
+322        <service
+322-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/dreamworld/.gradle/caches/transforms-3/97d00677c103d40f11ea05fe3c9f0496/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+323            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+323-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/dreamworld/.gradle/caches/transforms-3/97d00677c103d40f11ea05fe3c9f0496/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+324            android:exported="false" >
+324-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/dreamworld/.gradle/caches/transforms-3/97d00677c103d40f11ea05fe3c9f0496/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+325            <meta-data
+325-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/dreamworld/.gradle/caches/transforms-3/97d00677c103d40f11ea05fe3c9f0496/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+326                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+326-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/dreamworld/.gradle/caches/transforms-3/97d00677c103d40f11ea05fe3c9f0496/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+327                android:value="cct" />
+327-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/dreamworld/.gradle/caches/transforms-3/97d00677c103d40f11ea05fe3c9f0496/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+328        </service>
+329        <service
+329-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/dreamworld/.gradle/caches/transforms-3/53af1f3fc6363797f8be24ff16d72fd7/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+330            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+330-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/dreamworld/.gradle/caches/transforms-3/53af1f3fc6363797f8be24ff16d72fd7/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+331            android:exported="false"
+331-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/dreamworld/.gradle/caches/transforms-3/53af1f3fc6363797f8be24ff16d72fd7/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+332            android:permission="android.permission.BIND_JOB_SERVICE" >
+332-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/dreamworld/.gradle/caches/transforms-3/53af1f3fc6363797f8be24ff16d72fd7/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+333        </service>
+334
+335        <receiver
+335-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/dreamworld/.gradle/caches/transforms-3/53af1f3fc6363797f8be24ff16d72fd7/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+336            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+336-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/dreamworld/.gradle/caches/transforms-3/53af1f3fc6363797f8be24ff16d72fd7/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+337            android:exported="false" />
+337-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/dreamworld/.gradle/caches/transforms-3/53af1f3fc6363797f8be24ff16d72fd7/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+338
+339        <provider
+339-->[com.google.firebase:firebase-common:20.0.0] /Users/dreamworld/.gradle/caches/transforms-3/bd5efdbf7de6587772d60ed24c49819a/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+340            android:name="com.google.firebase.provider.FirebaseInitProvider"
+340-->[com.google.firebase:firebase-common:20.0.0] /Users/dreamworld/.gradle/caches/transforms-3/bd5efdbf7de6587772d60ed24c49819a/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+341            android:authorities="com.Fahrschulhero.firebaseinitprovider"
+341-->[com.google.firebase:firebase-common:20.0.0] /Users/dreamworld/.gradle/caches/transforms-3/bd5efdbf7de6587772d60ed24c49819a/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+342            android:directBootAware="true"
+342-->[com.google.firebase:firebase-common:20.0.0] /Users/dreamworld/.gradle/caches/transforms-3/bd5efdbf7de6587772d60ed24c49819a/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+343            android:exported="false"
+343-->[com.google.firebase:firebase-common:20.0.0] /Users/dreamworld/.gradle/caches/transforms-3/bd5efdbf7de6587772d60ed24c49819a/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+344            android:initOrder="100" />
+344-->[com.google.firebase:firebase-common:20.0.0] /Users/dreamworld/.gradle/caches/transforms-3/bd5efdbf7de6587772d60ed24c49819a/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+345
+346        <receiver
+346-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/dreamworld/.gradle/caches/transforms-3/79bc35ba27c6697c439cdf043051e718/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:29:9-33:20
+347            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+347-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/dreamworld/.gradle/caches/transforms-3/79bc35ba27c6697c439cdf043051e718/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:30:13-85
+348            android:enabled="true"
+348-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/dreamworld/.gradle/caches/transforms-3/79bc35ba27c6697c439cdf043051e718/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:31:13-35
+349            android:exported="false" >
+349-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/dreamworld/.gradle/caches/transforms-3/79bc35ba27c6697c439cdf043051e718/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:32:13-37
+350        </receiver>
+351
+352        <service
+352-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/dreamworld/.gradle/caches/transforms-3/79bc35ba27c6697c439cdf043051e718/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:35:9-38:40
+353            android:name="com.google.android.gms.measurement.AppMeasurementService"
+353-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/dreamworld/.gradle/caches/transforms-3/79bc35ba27c6697c439cdf043051e718/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:36:13-84
+354            android:enabled="true"
+354-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/dreamworld/.gradle/caches/transforms-3/79bc35ba27c6697c439cdf043051e718/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:37:13-35
+355            android:exported="false" />
+355-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/dreamworld/.gradle/caches/transforms-3/79bc35ba27c6697c439cdf043051e718/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:38:13-37
+356        <service
+356-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/dreamworld/.gradle/caches/transforms-3/79bc35ba27c6697c439cdf043051e718/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:39:9-43:72
+357            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+357-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/dreamworld/.gradle/caches/transforms-3/79bc35ba27c6697c439cdf043051e718/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:40:13-87
+358            android:enabled="true"
+358-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/dreamworld/.gradle/caches/transforms-3/79bc35ba27c6697c439cdf043051e718/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:41:13-35
+359            android:exported="false"
+359-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/dreamworld/.gradle/caches/transforms-3/79bc35ba27c6697c439cdf043051e718/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:42:13-37
+360            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Needs to be explicitly declared on P+ -->
+360-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/dreamworld/.gradle/caches/transforms-3/79bc35ba27c6697c439cdf043051e718/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:43:13-69
+361        <uses-library
+361-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dreamworld/.gradle/caches/transforms-3/4c6d5e25d67431c451d1e946df5c5a14/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+362            android:name="org.apache.http.legacy"
+362-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dreamworld/.gradle/caches/transforms-3/4c6d5e25d67431c451d1e946df5c5a14/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+363            android:required="false" />
+363-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dreamworld/.gradle/caches/transforms-3/4c6d5e25d67431c451d1e946df5c5a14/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+364
+365        <activity
+365-->[com.google.android.gms:play-services-auth:16.0.1] /Users/dreamworld/.gradle/caches/transforms-3/f1c930f0b0982bb9aee8f1a39f29a687/transformed/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+366            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+366-->[com.google.android.gms:play-services-auth:16.0.1] /Users/dreamworld/.gradle/caches/transforms-3/f1c930f0b0982bb9aee8f1a39f29a687/transformed/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+367            android:excludeFromRecents="true"
+367-->[com.google.android.gms:play-services-auth:16.0.1] /Users/dreamworld/.gradle/caches/transforms-3/f1c930f0b0982bb9aee8f1a39f29a687/transformed/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+368            android:exported="false"
+368-->[com.google.android.gms:play-services-auth:16.0.1] /Users/dreamworld/.gradle/caches/transforms-3/f1c930f0b0982bb9aee8f1a39f29a687/transformed/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+369            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+369-->[com.google.android.gms:play-services-auth:16.0.1] /Users/dreamworld/.gradle/caches/transforms-3/f1c930f0b0982bb9aee8f1a39f29a687/transformed/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+370        <!--
+371            Service handling Google Sign-In user revocation. For apps that do not integrate with
+372            Google Sign-In, this service will never be started.
+373        -->
+374        <service
+374-->[com.google.android.gms:play-services-auth:16.0.1] /Users/dreamworld/.gradle/caches/transforms-3/f1c930f0b0982bb9aee8f1a39f29a687/transformed/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+375            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+375-->[com.google.android.gms:play-services-auth:16.0.1] /Users/dreamworld/.gradle/caches/transforms-3/f1c930f0b0982bb9aee8f1a39f29a687/transformed/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+376            android:exported="true"
+376-->[com.google.android.gms:play-services-auth:16.0.1] /Users/dreamworld/.gradle/caches/transforms-3/f1c930f0b0982bb9aee8f1a39f29a687/transformed/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+377            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+377-->[com.google.android.gms:play-services-auth:16.0.1] /Users/dreamworld/.gradle/caches/transforms-3/f1c930f0b0982bb9aee8f1a39f29a687/transformed/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+378        <activity
+378-->[com.google.android.gms:play-services-ads-lite:20.5.0] /Users/dreamworld/.gradle/caches/transforms-3/6cc9934bd2f9ae0361a862b5b567f44d/transformed/jetified-play-services-ads-lite-20.5.0/AndroidManifest.xml:49:9-53:64
+379            android:name="com.google.android.gms.ads.AdActivity"
+379-->[com.google.android.gms:play-services-ads-lite:20.5.0] /Users/dreamworld/.gradle/caches/transforms-3/6cc9934bd2f9ae0361a862b5b567f44d/transformed/jetified-play-services-ads-lite-20.5.0/AndroidManifest.xml:50:13-65
+380            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+380-->[com.google.android.gms:play-services-ads-lite:20.5.0] /Users/dreamworld/.gradle/caches/transforms-3/6cc9934bd2f9ae0361a862b5b567f44d/transformed/jetified-play-services-ads-lite-20.5.0/AndroidManifest.xml:51:13-122
+381            android:exported="false"
+381-->[com.google.android.gms:play-services-ads-lite:20.5.0] /Users/dreamworld/.gradle/caches/transforms-3/6cc9934bd2f9ae0361a862b5b567f44d/transformed/jetified-play-services-ads-lite-20.5.0/AndroidManifest.xml:52:13-37
+382            android:theme="@android:style/Theme.Translucent" />
+382-->[com.google.android.gms:play-services-ads-lite:20.5.0] /Users/dreamworld/.gradle/caches/transforms-3/6cc9934bd2f9ae0361a862b5b567f44d/transformed/jetified-play-services-ads-lite-20.5.0/AndroidManifest.xml:53:13-61
+383
+384        <provider
+384-->[com.google.android.gms:play-services-ads-lite:20.5.0] /Users/dreamworld/.gradle/caches/transforms-3/6cc9934bd2f9ae0361a862b5b567f44d/transformed/jetified-play-services-ads-lite-20.5.0/AndroidManifest.xml:55:9-59:39
+385            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+385-->[com.google.android.gms:play-services-ads-lite:20.5.0] /Users/dreamworld/.gradle/caches/transforms-3/6cc9934bd2f9ae0361a862b5b567f44d/transformed/jetified-play-services-ads-lite-20.5.0/AndroidManifest.xml:56:13-76
+386            android:authorities="com.Fahrschulhero.mobileadsinitprovider"
+386-->[com.google.android.gms:play-services-ads-lite:20.5.0] /Users/dreamworld/.gradle/caches/transforms-3/6cc9934bd2f9ae0361a862b5b567f44d/transformed/jetified-play-services-ads-lite-20.5.0/AndroidManifest.xml:57:13-73
+387            android:exported="false"
+387-->[com.google.android.gms:play-services-ads-lite:20.5.0] /Users/dreamworld/.gradle/caches/transforms-3/6cc9934bd2f9ae0361a862b5b567f44d/transformed/jetified-play-services-ads-lite-20.5.0/AndroidManifest.xml:58:13-37
+388            android:initOrder="100" />
+388-->[com.google.android.gms:play-services-ads-lite:20.5.0] /Users/dreamworld/.gradle/caches/transforms-3/6cc9934bd2f9ae0361a862b5b567f44d/transformed/jetified-play-services-ads-lite-20.5.0/AndroidManifest.xml:59:13-36
+389
+390        <service
+390-->[com.google.android.gms:play-services-ads-lite:20.5.0] /Users/dreamworld/.gradle/caches/transforms-3/6cc9934bd2f9ae0361a862b5b567f44d/transformed/jetified-play-services-ads-lite-20.5.0/AndroidManifest.xml:61:9-64:40
+391            android:name="com.google.android.gms.ads.AdService"
+391-->[com.google.android.gms:play-services-ads-lite:20.5.0] /Users/dreamworld/.gradle/caches/transforms-3/6cc9934bd2f9ae0361a862b5b567f44d/transformed/jetified-play-services-ads-lite-20.5.0/AndroidManifest.xml:62:13-64
+392            android:enabled="true"
+392-->[com.google.android.gms:play-services-ads-lite:20.5.0] /Users/dreamworld/.gradle/caches/transforms-3/6cc9934bd2f9ae0361a862b5b567f44d/transformed/jetified-play-services-ads-lite-20.5.0/AndroidManifest.xml:63:13-35
+393            android:exported="false" />
+393-->[com.google.android.gms:play-services-ads-lite:20.5.0] /Users/dreamworld/.gradle/caches/transforms-3/6cc9934bd2f9ae0361a862b5b567f44d/transformed/jetified-play-services-ads-lite-20.5.0/AndroidManifest.xml:64:13-37
+394
+395        <activity
+395-->[com.google.android.gms:play-services-base:17.6.0] /Users/dreamworld/.gradle/caches/transforms-3/184068a98fecd5c5b0780c38b252d8fc/transformed/jetified-play-services-base-17.6.0/AndroidManifest.xml:23:9-26:75
+396            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+396-->[com.google.android.gms:play-services-base:17.6.0] /Users/dreamworld/.gradle/caches/transforms-3/184068a98fecd5c5b0780c38b252d8fc/transformed/jetified-play-services-base-17.6.0/AndroidManifest.xml:24:13-79
+397            android:exported="false"
+397-->[com.google.android.gms:play-services-base:17.6.0] /Users/dreamworld/.gradle/caches/transforms-3/184068a98fecd5c5b0780c38b252d8fc/transformed/jetified-play-services-base-17.6.0/AndroidManifest.xml:25:13-37
+398            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+398-->[com.google.android.gms:play-services-base:17.6.0] /Users/dreamworld/.gradle/caches/transforms-3/184068a98fecd5c5b0780c38b252d8fc/transformed/jetified-play-services-base-17.6.0/AndroidManifest.xml:26:13-72
+399
+400        <meta-data
+400-->[com.google.android.gms:play-services-basement:17.6.0] /Users/dreamworld/.gradle/caches/transforms-3/b8533c92bf447bcdbddc7a4a6a46f31b/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
+401            android:name="com.google.android.gms.version"
+401-->[com.google.android.gms:play-services-basement:17.6.0] /Users/dreamworld/.gradle/caches/transforms-3/b8533c92bf447bcdbddc7a4a6a46f31b/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:24:13-58
+402            android:value="@integer/google_play_services_version" />
+402-->[com.google.android.gms:play-services-basement:17.6.0] /Users/dreamworld/.gradle/caches/transforms-3/b8533c92bf447bcdbddc7a4a6a46f31b/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:25:13-66
+403
+404        <provider
+404-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:31:9-39:20
+405            android:name="androidx.startup.InitializationProvider"
+405-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:32:13-67
+406            android:authorities="com.Fahrschulhero.androidx-startup"
+406-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:33:13-68
+407            android:exported="false" >
+407-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:34:13-37
+408            <meta-data
+408-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:36:13-38:52
+409                android:name="androidx.work.WorkManagerInitializer"
+409-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:37:17-68
+410                android:value="androidx.startup" />
+410-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:38:17-49
+411        </provider>
+412
+413        <service
+413-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:41:9-46:35
+414            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+414-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:42:13-88
+415            android:directBootAware="false"
+415-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:43:13-44
+416            android:enabled="@bool/enable_system_alarm_service_default"
+416-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:44:13-72
+417            android:exported="false" />
+417-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:45:13-37
+418        <service
+418-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:47:9-53:35
+419            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+419-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:48:13-84
+420            android:directBootAware="false"
+420-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:49:13-44
+421            android:enabled="@bool/enable_system_job_service_default"
+421-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:50:13-70
+422            android:exported="true"
+422-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:51:13-36
+423            android:permission="android.permission.BIND_JOB_SERVICE" />
+423-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:52:13-69
+424        <service
+424-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:54:9-59:35
+425            android:name="androidx.work.impl.foreground.SystemForegroundService"
+425-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:55:13-81
+426            android:directBootAware="false"
+426-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:56:13-44
+427            android:enabled="@bool/enable_system_foreground_service_default"
+427-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:57:13-77
+428            android:exported="false" />
+428-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:58:13-37
+429
+430        <receiver
+430-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:61:9-66:35
+431            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+431-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:62:13-88
+432            android:directBootAware="false"
+432-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:63:13-44
+433            android:enabled="true"
+433-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:64:13-35
+434            android:exported="false" />
+434-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:65:13-37
+435        <receiver
+435-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:67:9-77:20
+436            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+436-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:68:13-106
+437            android:directBootAware="false"
+437-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:69:13-44
+438            android:enabled="false"
+438-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:70:13-36
+439            android:exported="false" >
+439-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:71:13-37
+440            <intent-filter>
+440-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:73:13-76:29
+441                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+441-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:17-87
+441-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:25-84
+442                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+442-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:17-90
+442-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:25-87
+443            </intent-filter>
+444        </receiver>
+445        <receiver
+445-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:78:9-88:20
+446            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+446-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:79:13-104
+447            android:directBootAware="false"
+447-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:80:13-44
+448            android:enabled="false"
+448-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:81:13-36
+449            android:exported="false" >
+449-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:82:13-37
+450            <intent-filter>
+450-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:84:13-87:29
+451                <action android:name="android.intent.action.BATTERY_OKAY" />
+451-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:17-77
+451-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:25-74
+452                <action android:name="android.intent.action.BATTERY_LOW" />
+452-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:17-76
+452-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:25-73
+453            </intent-filter>
+454        </receiver>
+455        <receiver
+455-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:89:9-99:20
+456            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+456-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:90:13-104
+457            android:directBootAware="false"
+457-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:91:13-44
+458            android:enabled="false"
+458-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:92:13-36
+459            android:exported="false" >
+459-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:93:13-37
+460            <intent-filter>
+460-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:95:13-98:29
+461                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+461-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:17-83
+461-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:25-80
+462                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+462-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:17-82
+462-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:25-79
+463            </intent-filter>
+464        </receiver>
+465        <receiver
+465-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:100:9-109:20
+466            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+466-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:101:13-103
+467            android:directBootAware="false"
+467-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:102:13-44
+468            android:enabled="false"
+468-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:103:13-36
+469            android:exported="false" >
+469-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:104:13-37
+470            <intent-filter>
+470-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:106:13-108:29
+471                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+471-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:17-79
+471-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:25-76
+472            </intent-filter>
+473        </receiver>
+474        <receiver
+474-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:110:9-121:20
+475            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+475-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:111:13-88
+476            android:directBootAware="false"
+476-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:112:13-44
+477            android:enabled="false"
+477-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:113:13-36
+478            android:exported="false" >
+478-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:114:13-37
+479            <intent-filter>
+479-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:116:13-120:29
+480                <action android:name="android.intent.action.BOOT_COMPLETED" />
+480-->[:flutter_local_notifications] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:17-79
+480-->[:flutter_local_notifications] /Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:25-76
+481                <action android:name="android.intent.action.TIME_SET" />
+481-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:17-73
+481-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:25-70
+482                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+482-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:17-81
+482-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:25-78
+483            </intent-filter>
+484        </receiver>
+485        <receiver
+485-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:122:9-131:20
+486            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+486-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:123:13-99
+487            android:directBootAware="false"
+487-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:124:13-44
+488            android:enabled="@bool/enable_system_alarm_service_default"
+488-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:125:13-72
+489            android:exported="false" >
+489-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:126:13-37
+490            <intent-filter>
+490-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:128:13-130:29
+491                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+491-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:17-98
+491-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:25-95
+492            </intent-filter>
+493        </receiver>
+494        <receiver
+494-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:132:9-142:20
+495            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+495-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:133:13-78
+496            android:directBootAware="false"
+496-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:134:13-44
+497            android:enabled="true"
+497-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:135:13-35
+498            android:exported="true"
+498-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:136:13-36
+499            android:permission="android.permission.DUMP" >
+499-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:137:13-57
+500            <intent-filter>
+500-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:139:13-141:29
+501                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+501-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:17-88
+501-->[androidx.work:work-runtime:2.7.0] /Users/dreamworld/.gradle/caches/transforms-3/9078da2f8fa75ce6aefaadc746891371/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:25-85
+502            </intent-filter>
+503        </receiver>
+504
+505        <provider
+505-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/dreamworld/.gradle/caches/transforms-3/5919c9ef9fa2725c739d90b0593096b1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+506            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+506-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/dreamworld/.gradle/caches/transforms-3/5919c9ef9fa2725c739d90b0593096b1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+507            android:authorities="com.Fahrschulhero.lifecycle-process"
+507-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/dreamworld/.gradle/caches/transforms-3/5919c9ef9fa2725c739d90b0593096b1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+508            android:exported="false"
+508-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/dreamworld/.gradle/caches/transforms-3/5919c9ef9fa2725c739d90b0593096b1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+509            android:multiprocess="true" />
+509-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/dreamworld/.gradle/caches/transforms-3/5919c9ef9fa2725c739d90b0593096b1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+510
+511        <service
+511-->[androidx.room:room-runtime:2.2.5] /Users/dreamworld/.gradle/caches/transforms-3/d5fe8fd9f7c86c973d8dd2d6089c20ef/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+512            android:name="androidx.room.MultiInstanceInvalidationService"
+512-->[androidx.room:room-runtime:2.2.5] /Users/dreamworld/.gradle/caches/transforms-3/d5fe8fd9f7c86c973d8dd2d6089c20ef/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+513            android:directBootAware="true"
+513-->[androidx.room:room-runtime:2.2.5] /Users/dreamworld/.gradle/caches/transforms-3/d5fe8fd9f7c86c973d8dd2d6089c20ef/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+514            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+514-->[androidx.room:room-runtime:2.2.5] /Users/dreamworld/.gradle/caches/transforms-3/d5fe8fd9f7c86c973d8dd2d6089c20ef/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+515        <activity
+515-->[com.google.android.play:core:1.10.0] /Users/dreamworld/.gradle/caches/transforms-3/7fba21776e9ad4e035c73791c54f80e6/transformed/jetified-core-1.10.0/AndroidManifest.xml:12:5-271
+516            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+516-->[com.google.android.play:core:1.10.0] /Users/dreamworld/.gradle/caches/transforms-3/7fba21776e9ad4e035c73791c54f80e6/transformed/jetified-core-1.10.0/AndroidManifest.xml:12:15-102
+517            android:enabled="false"
+517-->[com.google.android.play:core:1.10.0] /Users/dreamworld/.gradle/caches/transforms-3/7fba21776e9ad4e035c73791c54f80e6/transformed/jetified-core-1.10.0/AndroidManifest.xml:12:103-126
+518            android:exported="false"
+518-->[com.google.android.play:core:1.10.0] /Users/dreamworld/.gradle/caches/transforms-3/7fba21776e9ad4e035c73791c54f80e6/transformed/jetified-core-1.10.0/AndroidManifest.xml:12:127-151
+519            android:launchMode="singleInstance"
+519-->[com.google.android.play:core:1.10.0] /Users/dreamworld/.gradle/caches/transforms-3/7fba21776e9ad4e035c73791c54f80e6/transformed/jetified-core-1.10.0/AndroidManifest.xml:12:204-239
+520            android:process=":playcore_missing_splits_activity"
+520-->[com.google.android.play:core:1.10.0] /Users/dreamworld/.gradle/caches/transforms-3/7fba21776e9ad4e035c73791c54f80e6/transformed/jetified-core-1.10.0/AndroidManifest.xml:12:152-203
+521            android:stateNotNeeded="true" />
+521-->[com.google.android.play:core:1.10.0] /Users/dreamworld/.gradle/caches/transforms-3/7fba21776e9ad4e035c73791c54f80e6/transformed/jetified-core-1.10.0/AndroidManifest.xml:12:240-269
+522        <activity
+522-->[com.google.android.play:core:1.10.0] /Users/dreamworld/.gradle/caches/transforms-3/7fba21776e9ad4e035c73791c54f80e6/transformed/jetified-core-1.10.0/AndroidManifest.xml:13:5-226
+523            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+523-->[com.google.android.play:core:1.10.0] /Users/dreamworld/.gradle/caches/transforms-3/7fba21776e9ad4e035c73791c54f80e6/transformed/jetified-core-1.10.0/AndroidManifest.xml:13:15-95
+524            android:enabled="false"
+524-->[com.google.android.play:core:1.10.0] /Users/dreamworld/.gradle/caches/transforms-3/7fba21776e9ad4e035c73791c54f80e6/transformed/jetified-core-1.10.0/AndroidManifest.xml:13:96-119
+525            android:exported="false"
+525-->[com.google.android.play:core:1.10.0] /Users/dreamworld/.gradle/caches/transforms-3/7fba21776e9ad4e035c73791c54f80e6/transformed/jetified-core-1.10.0/AndroidManifest.xml:13:120-144
+526            android:stateNotNeeded="true"
+526-->[com.google.android.play:core:1.10.0] /Users/dreamworld/.gradle/caches/transforms-3/7fba21776e9ad4e035c73791c54f80e6/transformed/jetified-core-1.10.0/AndroidManifest.xml:13:145-174
+527            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+527-->[com.google.android.play:core:1.10.0] /Users/dreamworld/.gradle/caches/transforms-3/7fba21776e9ad4e035c73791c54f80e6/transformed/jetified-core-1.10.0/AndroidManifest.xml:13:175-224
+528        <service
+528-->[com.google.android.play:core:1.10.0] /Users/dreamworld/.gradle/caches/transforms-3/7fba21776e9ad4e035c73791c54f80e6/transformed/jetified-core-1.10.0/AndroidManifest.xml:16:5-18:15
+529            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+529-->[com.google.android.play:core:1.10.0] /Users/dreamworld/.gradle/caches/transforms-3/7fba21776e9ad4e035c73791c54f80e6/transformed/jetified-core-1.10.0/AndroidManifest.xml:16:14-95
+530            android:enabled="false"
+530-->[com.google.android.play:core:1.10.0] /Users/dreamworld/.gradle/caches/transforms-3/7fba21776e9ad4e035c73791c54f80e6/transformed/jetified-core-1.10.0/AndroidManifest.xml:16:96-119
+531            android:exported="true" >
+531-->[com.google.android.play:core:1.10.0] /Users/dreamworld/.gradle/caches/transforms-3/7fba21776e9ad4e035c73791c54f80e6/transformed/jetified-core-1.10.0/AndroidManifest.xml:16:120-143
+532            <meta-data
+532-->[com.google.android.play:core:1.10.0] /Users/dreamworld/.gradle/caches/transforms-3/7fba21776e9ad4e035c73791c54f80e6/transformed/jetified-core-1.10.0/AndroidManifest.xml:17:7-108
+533                android:name="com.google.android.play.core.assetpacks.versionCode"
+533-->[com.google.android.play:core:1.10.0] /Users/dreamworld/.gradle/caches/transforms-3/7fba21776e9ad4e035c73791c54f80e6/transformed/jetified-core-1.10.0/AndroidManifest.xml:17:18-84
+534                android:value="11000" />
+534-->[com.google.android.play:core:1.10.0] /Users/dreamworld/.gradle/caches/transforms-3/7fba21776e9ad4e035c73791c54f80e6/transformed/jetified-core-1.10.0/AndroidManifest.xml:17:85-106
+535        </service>
+536        <service
+536-->[com.google.android.play:core:1.10.0] /Users/dreamworld/.gradle/caches/transforms-3/7fba21776e9ad4e035c73791c54f80e6/transformed/jetified-core-1.10.0/AndroidManifest.xml:19:5-147
+537            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+537-->[com.google.android.play:core:1.10.0] /Users/dreamworld/.gradle/caches/transforms-3/7fba21776e9ad4e035c73791c54f80e6/transformed/jetified-core-1.10.0/AndroidManifest.xml:19:14-96
+538            android:enabled="false"
+538-->[com.google.android.play:core:1.10.0] /Users/dreamworld/.gradle/caches/transforms-3/7fba21776e9ad4e035c73791c54f80e6/transformed/jetified-core-1.10.0/AndroidManifest.xml:19:97-120
+539            android:exported="false" />
+539-->[com.google.android.play:core:1.10.0] /Users/dreamworld/.gradle/caches/transforms-3/7fba21776e9ad4e035c73791c54f80e6/transformed/jetified-core-1.10.0/AndroidManifest.xml:19:121-145
+540    </application>
+541
+542</manifest>

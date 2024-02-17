@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/google_sign_in/intermediates/merged_res/debug/drawable-watch-v20/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/dreamworld/.gradle/caches/transforms-3/f1c930f0b0982bb9aee8f1a39f29a687/transformed/jetified-play-services-auth-16.0.1/res/drawable-watch-v20/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/google_sign_in/intermediates/merged_res/debug/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/dreamworld/.gradle/caches/transforms-3/f1c930f0b0982bb9aee8f1a39f29a687/transformed/jetified-play-services-auth-16.0.1/res/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/google_sign_in/intermediates/merged_res/debug/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/dreamworld/.gradle/caches/transforms-3/f1c930f0b0982bb9aee8f1a39f29a687/transformed/jetified-play-services-auth-16.0.1/res/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml"
+    }
+]

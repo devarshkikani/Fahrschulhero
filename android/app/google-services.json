@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "495101546871",
+    "project_id": "fahrschulhero",
+    "storage_bucket": "fahrschulhero.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495101546871:android:d1b865866b0a80384bd172",
+        "android_client_info": {
+          "package_name": "com.Fahrschulhero"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495101546871-2s3qpf761autgdfl54f23ale2srbdba1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Fahrschulhero",
+            "certificate_hash": "6af142a1dce3abeab71f30da3847de076b648f2d"
+          }
+        },
+        {
+          "client_id": "495101546871-7nqjk3r20nr8eoki6ju8o20t8n218l1l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Fahrschulhero",
+            "certificate_hash": "9e6113ef6d935c9a1e161925349a195e810d610a"
+          }
+        },
+        {
+          "client_id": "495101546871-a2h4ei4laapok4j73gq2sifpaj871ndv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Fahrschulhero",
+            "certificate_hash": "8bb9d3d34a08d4d4ea47d1c31937bf8c8f74629c"
+          }
+        },
+        {
+          "client_id": "495101546871-da4iv524ugqrk1e7tudikh1fumugpps6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Fahrschulhero",
+            "certificate_hash": "ff0e00db9c8d717c44f4cdcb9454e176e7fdeb15"
+          }
+        },
+        {
+          "client_id": "495101546871-e8c57v82g9c98qooejbjfp7kbuuimtl9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Fahrschulhero",
+            "certificate_hash": "c90a4339f8b264cf46ae448f3458acf9746fc355"
+          }
+        },
+        {
+          "client_id": "495101546871-hieco38dbdj4gfga12ttsqv6r6i9bv67.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Fahrschulhero",
+            "certificate_hash": "b14527806ecd1d03fa9e155bff3b78b656bb5d60"
+          }
+        },
+        {
+          "client_id": "495101546871-ku509v4c69g8ln2fbv4h59ejp2amgt29.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Fahrschulhero",
+            "certificate_hash": "3ef203a0d6ff0c3f9376f8c0d2a9cbb020c38f46"
+          }
+        },
+        {
+          "client_id": "495101546871-ls8goqhdiv7on5ot1rmm9ulrgubdte28.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Fahrschulhero",
+            "certificate_hash": "a62520eecad436cc6790470b271071f34f160158"
+          }
+        },
+        {
+          "client_id": "495101546871-r9bi96s460pv5hp7mblg850raft68u3t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Fahrschulhero",
+            "certificate_hash": "a0e97f5f3bbe89de19b8a442712bc2749726c2f7"
+          }
+        },
+        {
+          "client_id": "495101546871-s1uisi7ludbvjeu9ba63uvhsamo09sr8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Fahrschulhero",
+            "certificate_hash": "252af02109980a1c7597b9608d98635f8bfb4fd3"
+          }
+        },
+        {
+          "client_id": "495101546871-eag7r92da5fa1e0j2bv4qgip72gng0r3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLdqRj3rAh_LR4Jex_B3UOh3JAqMtl864"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495101546871-eag7r92da5fa1e0j2bv4qgip72gng0r3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "495101546871-pp4ss92m938pqblriat2jmbisqrmslsl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Fahrschulhero",
+                "app_store_id": "1599075528"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">495101546871-eag7r92da5fa1e0j2bv4qgip72gng0r3.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">495101546871</string>
+    <string name="google_api_key" translatable="false">AIzaSyDLdqRj3rAh_LR4Jex_B3UOh3JAqMtl864</string>
+    <string name="google_app_id" translatable="false">1:495101546871:android:d1b865866b0a80384bd172</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDLdqRj3rAh_LR4Jex_B3UOh3JAqMtl864</string>
+    <string name="google_storage_bucket" translatable="false">fahrschulhero.appspot.com</string>
+    <string name="project_id" translatable="false">fahrschulhero</string>
+</resources>

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/google_maps_flutter/intermediates/merged_res/debug/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "/Users/dreamworld/.gradle/caches/transforms-3/36911b3bda53d154e687b069e48224bb/transformed/jetified-play-services-base-17.0.0/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/google_maps_flutter/intermediates/merged_res/debug/drawable-xxhdpi-v4/googleg_standard_color_18.png",
+        "source": "/Users/dreamworld/.gradle/caches/transforms-3/36911b3bda53d154e687b069e48224bb/transformed/jetified-play-services-base-17.0.0/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/google_maps_flutter/intermediates/merged_res/debug/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "/Users/dreamworld/.gradle/caches/transforms-3/36911b3bda53d154e687b069e48224bb/transformed/jetified-play-services-base-17.0.0/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/google_maps_flutter/intermediates/merged_res/debug/drawable-xxhdpi-v4/googleg_disabled_color_18.png",
+        "source": "/Users/dreamworld/.gradle/caches/transforms-3/36911b3bda53d154e687b069e48224bb/transformed/jetified-play-services-base-17.0.0/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/google_maps_flutter/intermediates/merged_res/debug/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "/Users/dreamworld/.gradle/caches/transforms-3/36911b3bda53d154e687b069e48224bb/transformed/jetified-play-services-base-17.0.0/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/dreamworld/Documents/3 Dot/fahrschulhero-app/build/google_maps_flutter/intermediates/merged_res/debug/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "/Users/dreamworld/.gradle/caches/transforms-3/36911b3bda53d154e687b069e48224bb/transformed/jetified-play-services-base-17.0.0/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    }
+]
